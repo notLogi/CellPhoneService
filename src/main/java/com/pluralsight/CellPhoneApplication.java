@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class CellPhoneApplication {
     public static void main(String[] args) {
-        Cellphone phone = new Cellphone();
+        CellPhone phone = new CellPhone();
         Scanner myScanner = new Scanner(System.in);
         System.out.println("What is the serial number? ");
         phone.setSerialNumber(myScanner.nextInt());

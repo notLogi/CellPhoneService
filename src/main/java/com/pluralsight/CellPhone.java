@@ -1,7 +1,7 @@
 package com.pluralsight;
 
-public class Cellphone {
-    public Cellphone(){
+public class CellPhone {
+    public CellPhone(){
         this.serialNumber = 0;
         this.model = "";
         this.carrier = "";
