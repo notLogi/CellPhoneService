@@ -29,7 +29,7 @@ public class Cellphone {
     public String getPhoneNumber(){
         return this.phoneNumber;
     }
-    public void setPhoneNumber(String PhoneNumber){
+    public void setPhoneNumber(String phoneNumber){
         this.phoneNumber = phoneNumber;
     }
     public String getOwner(){
