@@ -24,7 +24,7 @@ public class CellPhoneApplication {
         System.out.println("What is the serial number? ");
         phone.setSerialNumber(scanner.nextInt());
         scanner.nextLine();
-        System.out.println("What l is the phone? ");
+        System.out.println("What model is the phone? ");
         phone.setModel(scanner.nextLine());
         System.out.println("Who is the carrier?");
         phone.setCarrier(scanner.nextLine());
