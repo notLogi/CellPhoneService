@@ -5,6 +5,7 @@ public class CellPhoneApplication {
     public static void main(String[] args) {
         CellPhone cellPhone1 = new CellPhone();
         CellPhone cellPhone2 = new CellPhone();
+        CellPhone cellPhone3 = new CellPhone(23232, "Huawei", "Verizon", "999-999-9999", "Will");
 
         Scanner myScanner = new Scanner(System.in);
 
@@ -13,6 +14,7 @@ public class CellPhoneApplication {
         display(cellPhone1);
         display(cellPhone2);
         cellPhone1.dial(cellPhone2.getPhoneNumber());
+        display(cellPhone3);
 
         myScanner.close();
     }
